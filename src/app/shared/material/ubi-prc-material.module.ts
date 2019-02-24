@@ -1,0 +1,56 @@
+import { NgModule } from '@angular/core';
+import { MatAutocompleteModule,
+         MatBadgeModule,
+         MatBottomSheetModule,
+         MatButtonModule,
+         MatButtonToggleModule,
+         MatCardModule,
+         MatCheckboxModule,
+         MatChipsModule,
+         MatCommonModule,
+         MatDatepickerModule,
+         MatDialogModule,
+         MatExpansionModule,
+         MatFormFieldModule,
+         MatGridListModule,
+         MatIconModule,
+         MatInputModule,
+         MatLineModule,
+         MatListModule,
+         MatMenuModule,
+         MatOptionModule,
+         MatPaginatorModule,
+         MatProgressBarModule,
+         MatProgressSpinnerModule,
+         MatPseudoCheckboxModule,
+         MatSelectModule,
+         MatRadioModule,
+         MatSidenavModule,
+         MatNativeDateModule,
+         MatRippleModule,
+         MatSlideToggleModule,
+         MatSliderModule,
+         MatSnackBarModule,
+         MatSortModule,
+         MatStepperModule,
+         MatTableModule,
+         MatTabsModule,
+         MatToolbarModule,
+         MatTreeModule,
+         MatTooltipModule } from '@angular/material';
+
+const matModules = [
+  MatAutocompleteModule, MatBadgeModule, MatBottomSheetModule, MatButtonModule, MatButtonToggleModule, MatCardModule,
+  MatCheckboxModule, MatChipsModule, MatCommonModule, MatDatepickerModule, MatDialogModule, MatExpansionModule,
+  MatFormFieldModule, MatGridListModule, MatIconModule, MatInputModule, MatLineModule, MatListModule, MatMenuModule,
+  MatOptionModule, MatPaginatorModule, MatProgressBarModule, MatProgressSpinnerModule, MatPseudoCheckboxModule,
+  MatSelectModule, MatRadioModule, MatSidenavModule, MatNativeDateModule, MatRippleModule, MatSlideToggleModule,
+  MatSliderModule, MatSnackBarModule, MatSortModule, MatStepperModule, MatTableModule, MatTabsModule, MatToolbarModule,
+  MatTreeModule, MatTooltipModule];
+
+@NgModule({
+  declarations: [],
+  imports: [...matModules],
+  exports: [...matModules]
+})
+export class UbiPrcMaterialModule { }
